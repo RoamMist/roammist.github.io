@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/layout.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class = "max-w-screen-xl mx-auto px-5">
+    <nav id="navbar">
+      <div class="flex w-full lg:w-auto items-center justify-between">
+        <a href="" class="text-lg"
+          ><span class="font-bold text-slate-800">Roam</span><span
+            class="text-slate-500">mist</span
+          >
+        </a>
+        <div class="block lg:hidden">
+          <MenuIcon class="w-4 h-4 text-gray-800" />
+        </div>
+      </div>
+    </nav>
+    <section class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
+      <div class="py-6 md:order-1 md:block">
+        <img src="./assets/hero.png"
+        alt="Astronaut in the air" sizes="(max-width: 800px) 100vw, 620px"/>
+      </div>
+      <div>
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+        Innovate and Shape the Future!
+      </h1>
+      <p class="text-lg mt-4 text-slate-600 max-w-xl">
+        We invite you to join us on our journey, as we explore the boundaries of
+        technology and create a future that is smarter and more beautiful.
+      </p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <a href="mailto:service@zrocky.com" method class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-black text-white hover:bg-gray-800  border-2 border-transparent flex gap-1 items-center justify-center">
+          <p class="text-white">Contact Us</p>
+        </a>
+      </div>
+      
+    </div>
+    </section>
+    <div
+  class="bg-white p-8 md:px-20 md:py-20 mt-20 mx-auto max-w-5xl flex flex-col items-center">
+  </div>
+  </div>
+    <footer>
+      <p class="text-center text-sm text-slate-500">
+        Copyright © 2024 Roammist Labs. All rights reserved.
+      </p>
+      <p class="text-center text-xs text-slate-300 mt-1">
+        <a
+          href="https://beian.miit.gov.cn/"
+          target="_blank"
+          rel="noopener"
+          class="hover:underline">
+          粤ICP备2024229768号
+        </a>
+      </p>
+    </footer>
+    <script>
+      var date = new Date();
+      var year = date.getFullYear();
+      document.getElementById("currentYear").innerHTML = year;
+    </script>
+  </body>
+</html>
